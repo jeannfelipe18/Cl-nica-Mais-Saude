@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carousel com iframe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicadores -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <iframe src="https://www.example.com" width="100%" height="400"></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe width="942" height="530" src="https://www.youtube.com/embed/YJaEz2qBveY" title="SUS - Princípios e Diretrizes do Sistema Único de Saúde | Resumão" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen padding-left: 20%;></iframe>
+      </div>
+      <div class="carousel-item">
+        <iframe src="https://www.example.com" width="100%" height="400"></iframe>
+      </div>
+    </div>
+
+    <!-- Controles -->
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
